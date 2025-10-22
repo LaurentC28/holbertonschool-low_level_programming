@@ -21,7 +21,6 @@ putchar(lettre2);
 lettre2++;
 } while (lettre2 <= 'Z');
 
-
 putchar('\n');
 return (0);
 }
