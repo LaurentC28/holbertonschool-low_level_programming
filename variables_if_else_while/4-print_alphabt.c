@@ -19,6 +19,6 @@ else
 {
 putchar(lettre);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
