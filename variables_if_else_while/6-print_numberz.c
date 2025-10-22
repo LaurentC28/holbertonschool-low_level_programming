@@ -13,7 +13,7 @@ int chiffre = 0;
 
 while (chiffre <= 9)
 {
-putchar(chiffre);
+putchar(chiffre + '0');
 chiffre++;
 }
 putchar('\n');
