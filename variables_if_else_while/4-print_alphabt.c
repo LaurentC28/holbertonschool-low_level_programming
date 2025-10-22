@@ -16,8 +16,6 @@ putchar(lettre);
 lettre++;
 } while (lettre <= 'z');
 
-
-
 putchar('\n');
 return (0);
 }
