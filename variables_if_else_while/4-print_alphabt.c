@@ -4,18 +4,21 @@
 /**
  * main - Entry point
  *
- * Description: Prints the alphabet in lowercase, followed by a new line
+ * Description: Prints the alphabet in lowercase except q and e.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char lettre = 'a';
 
-do {
+for (char lettre = 'a'; lettre <= 'z'; lettre++)
+if (lettre == 'q' || lettre == 'e')
+{
+continue;
+}
+else
+{
 putchar(lettre);
-lettre++;
-} while (lettre <= 'z');
+}
 
-putchar('\n');
 return (0);
 }
