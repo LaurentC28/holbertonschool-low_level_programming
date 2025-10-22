@@ -16,5 +16,6 @@ while (chiffre <= 9)
 printf("%d", chiffre);
 chiffre++;
 }
+putchar('\n');
 return (0);
 }
