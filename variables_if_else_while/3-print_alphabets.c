@@ -5,7 +5,7 @@
  * main - Entry point
  *
  * Description: Prints the alphabet in lowercase.
- * Description: Prints the alphabet in uppercase, followed by a new line.
+ * Description2: Prints the alphabet in uppercase, followed by a new line.
  * Return: Always 0 (Success)
  */
 int main(void)
