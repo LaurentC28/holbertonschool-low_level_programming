@@ -13,9 +13,8 @@ char lettre = 'a';
 
 do {
 putchar(lettre);
-putchar('\n');
 lettre++;
 } while (lettre <= 'z');
-
+putchar('\n');
 return (0);
 }
