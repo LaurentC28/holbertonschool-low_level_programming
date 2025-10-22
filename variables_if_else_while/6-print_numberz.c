@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-int chiffre=0;
+int chiffre = 0;
 
 while (chiffre <= 9)
 {
