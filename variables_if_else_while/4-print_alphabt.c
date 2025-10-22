@@ -18,7 +18,6 @@ continue;
 else
 {
 putchar(lettre);
-putchar("\n");
 }
 
 return (0);
