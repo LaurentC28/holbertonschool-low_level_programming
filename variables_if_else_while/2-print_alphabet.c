@@ -13,7 +13,7 @@ char lettre = 'a';
 
 do {
 putchar(lettre);
-putchar('\n');
+putchar('\n\n');
 lettre++;
 } while (lettre <= 'z');
 
