@@ -4,12 +4,12 @@
 /**
  * main - Entry point
  *
- * Description: Display all single digit numbers of base 10.
+ * Description: Display all single digit numbers of base 10 without printf.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int chiffre;
+int chiffre=0;
 
 while (chiffre <= 9)
 {
