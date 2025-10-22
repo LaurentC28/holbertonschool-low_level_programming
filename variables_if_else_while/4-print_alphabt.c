@@ -10,7 +10,7 @@
 int main(void)
 {
 char lettre = 0;
-for (char lettre = 'a'; lettre <= 'z'; lettre++)
+for (lettre = 'a'; lettre <= 'z'; lettre++)
 if (lettre == 'q' || lettre == 'e')
 {
 continue;
