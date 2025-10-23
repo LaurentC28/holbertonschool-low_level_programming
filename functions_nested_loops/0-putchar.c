@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "main.h"
 int main(void) {
-
+    char message[] = "_putchar";
     for (int i = 0; message[i] != '\0'; i++) {
         putchar(message[i]);
     }
