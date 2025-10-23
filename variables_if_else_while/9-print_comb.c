@@ -14,10 +14,12 @@ char chiffre;
 for (chiffre = 48 ; chiffre <= 57 ; chiffre++)
 {
 putchar(chiffre);
+if (chiffre != '9')
+{
 putchar (',');
 putchar (' ');
 }
-
+}
 putchar('\n');
 return (0);
 }
