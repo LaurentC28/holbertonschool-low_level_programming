@@ -1,1 +1,1 @@
-int main(void);
+    char message[] = "_putchar";
