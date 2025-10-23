@@ -16,7 +16,7 @@ for (chiffre = 48 ; chiffre <= 57 ; chiffre++)
 {
 putchar(chiffre);
 }
-for (lettre = 'a' ; lettre <= f ; lettre++)
+for (lettre = 'a' ; lettre <= 'f' ; lettre++)
 {
 putchar(lettre);
 }
