@@ -3,7 +3,7 @@
 
 /**
  * _islower - description checks for lowercase character
- * description - for parameter or member 'c'
+ * description - for parameter or int 'c'
  *
  * Return: void
  */
