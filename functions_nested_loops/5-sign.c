@@ -3,8 +3,8 @@
 
 /**
  * print_sign - description checks if the sign of a number.
- * description - for parameter or int 'c'
- * @c: explains in "betty" that we are working on the variable c
+ * description - for parameter or int 'n'
+ * @c: explains in "betty" that we are working on the variable n
  * Return: void
  */
 int print_sign(int n)
