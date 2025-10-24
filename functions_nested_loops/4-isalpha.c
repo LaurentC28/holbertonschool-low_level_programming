@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _islower - description checks for alphabetic character
+ * _isalpha - description checks for alphabetic character
  * description - for parameter or int 'c'
  * @c: explains in "betty" that we are working on the variable c
  * Return: void
