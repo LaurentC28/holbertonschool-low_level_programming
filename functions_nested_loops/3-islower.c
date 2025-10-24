@@ -3,6 +3,8 @@
 
 /**
  * checks for lowercase character
+ * description for function _islower
+ * description for parameter or member 'c'
  *
  * Return: void
  */
