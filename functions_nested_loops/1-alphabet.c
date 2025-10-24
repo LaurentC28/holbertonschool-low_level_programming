@@ -1,19 +1,18 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * print_alphabet - prints the alphabet in lowercase
  *
- * Description: Prints all the numbers of base 16 in lowercase.
- * Return: Always 0 (Success)
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-char lettre;
+    char lettre;
 
-for (lettre = 'a' ; lettre <= 'z' ; lettre++)
-{
-print_alphabet(lettre);
-}
+    for (lettre = 'a'; lettre <= 'z'; lettre++)
+    {
+        _putchar(lettre);
+    }
 
-putchar('\n');
-return (0);
+    _putchar('\n');
 }
