@@ -1,6 +1,6 @@
 #include "main.h"
 
-void main(void)
+void times_table(void)
 {
     int i, j, product, next;
 
