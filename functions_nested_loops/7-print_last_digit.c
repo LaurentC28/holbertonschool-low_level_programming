@@ -7,10 +7,11 @@
  * @n: explains in "betty" that we are working on the variable n
  * Return: void
  */
+
 int print_last_digit(int n)
 {
-	n = n % 10;
-	{
-	return (n);
-	}
+	int m = n % 10;
+	m= _abs(m);
+	_putchar(m + '0');
+return(m);
 }
