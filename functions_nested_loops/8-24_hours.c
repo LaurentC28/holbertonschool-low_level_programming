@@ -4,7 +4,7 @@
 /**
  * jack_bauer - print the Jack Bauer time.
  * description - for parameter or int 'n'
- * @n: explains in "betty" that we are working on the variable n
+ * @i: explains in "betty" that we are working on the variable i
  * Return: void
  */
 
