@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * times_tables - print table of 9 aligned.
+ * description - for parameter or int 'n'
+ * Return: void
+ */
 void times_table(void)
 {
 	int i, j, product, next;
