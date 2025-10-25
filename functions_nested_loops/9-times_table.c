@@ -36,7 +36,7 @@ int i, j;
             }
             else
             {
-                _putchar(,);
+                _putchar(',');
                 _putchar(' ');
             }
         }
