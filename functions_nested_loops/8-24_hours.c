@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * jack_bauer - play the Jack Bauer gen.
+ * jack_bauer - print the Jack Bauer time.
  * description - for parameter or int 'n'
  * @n: explains in "betty" that we are working on the variable n
  * Return: void
@@ -10,7 +10,7 @@
 
 void jack_bauer(void)
 {
-int i;j;
+int i,j;
 
 for (i = 0; i < 24; i++)
 {
