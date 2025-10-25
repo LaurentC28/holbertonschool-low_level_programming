@@ -12,24 +12,24 @@ void main(void)
 
             if (product >= 10)
             {
-                putchar(product / 10 + '0');
-                putchar(product % 10 + '0');
+                _putchar(product / 10 + '0');
+                _putchar(product % 10 + '0');
             }
             else
             {
-                putchar(product + '0');
+                _putchar(product + '0');
             }
 
             if (j < 9)
             {
                 next = i * (j + 1);
-                putchar(',');
-                putchar(' ');
+                _putchar(',');
+                _putchar(' ');
                 if (next < 10)
-                    putchar(' ');
+                    _putchar(' ');
             }
         }
-        putchar('\n');
+        _putchar('\n');
     }
 
 }
