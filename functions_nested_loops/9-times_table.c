@@ -18,6 +18,11 @@ int i, j;
         {
             product = i * j;
 
+            if (product < 10)
+            {
+                _putchar(' ');
+            }
+
             if (product >= 10)
             {
                 _putchar(product / 10 + '0');
@@ -31,7 +36,6 @@ int i, j;
             if (j < 9)
             {
                 _putchar(',');
-                _putchar(' ');
                 _putchar(' ');
             }
         }
