@@ -10,11 +10,6 @@ int main(void)
         {
             product = i * j;
 
-            /* espace d'alignement */
-            if (product < 10)
-                _putchar(' ');
-
-            /* afficher le nombre */
             if (product >= 10)
             {
                 _putchar(product / 10 + '0');
@@ -25,11 +20,12 @@ int main(void)
                 _putchar(product + '0');
             }
 
-            /* ajouter virgule et espace sauf à la fin */
             if (j < 9)
             {
                 _putchar(',');
                 _putchar(' ');
+                _putchar(' ');
+
             }
         }
         _putchar('\n');
