@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_tables - print table of 9 aligned.
+ * times_table - print table of 9 aligned.
  * description - for parameter or int 'n'
  * Return: void
  */
