@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- *
  * print_to_98 - prints all natural numbers from n to 98
- * @n: explains in "betty" that we are working on the variable n
- * Return: Always 0 (Success)
+ * @n: starting number
+ *
+ * Description: Numbers are separated by a comma followed by a space.
+ * Numbers are printed in order, ending with 98, followed by a new line.
  */
 void print_to_98(int n)
 {
