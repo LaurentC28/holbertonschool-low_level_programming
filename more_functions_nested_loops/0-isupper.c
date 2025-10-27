@@ -4,7 +4,7 @@
 
 int _isupper(int n)
 {
-	if (n >= 'A' && n <= 'z')
+	if (n >= 'A' && n <= 'Z')
 	{
 		return(1);
 	}
