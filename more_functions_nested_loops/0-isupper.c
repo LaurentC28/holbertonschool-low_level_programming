@@ -11,10 +11,10 @@ int _isupper(int n)
 {
 	if (n >= 'A' && n <= 'Z')
 	{
-		return(1);
+		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
