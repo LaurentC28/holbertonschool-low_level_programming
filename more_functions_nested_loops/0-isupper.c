@@ -4,7 +4,7 @@
  * _isupper - checks for uppercase character.
  * @n: working variable.
  *
- * Description: Returns 1 if c is uppercase o otherwise.
+ * Description: _isupper returns 1 if n is uppercase o otherwise.
  */
 
 int _isupper(int n)
