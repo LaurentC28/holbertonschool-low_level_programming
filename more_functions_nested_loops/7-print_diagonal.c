@@ -12,7 +12,7 @@ void print_diagonal(int n)
 	int esp;
 	int lig;
 
-if (n <= 0)
+	if (n <= 0)
 	_putchar('\n');
 
 	for (lig = 0 ; lig < n ; lig++)
