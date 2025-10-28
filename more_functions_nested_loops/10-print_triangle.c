@@ -12,7 +12,7 @@ void print_triangle(int size)
 	
 	int esp;
 	int lig;
-    int resu;
+	int resu;
 
 	if (size <= 0)
 	_putchar('\n');
@@ -21,13 +21,13 @@ void print_triangle(int size)
 	{
 		for (esp = size - lig ; esp > 0 ; esp--)
 		{
-        _putchar(' ');
-        }
-        for (resu = 0 ; resu < lig ; resu++)
-        {
-        _putchar('#');
-        }
-    
+		_putchar(' ');
+		}
+		for (resu = 0 ; resu < lig ; resu++)
+		{
+		_putchar('#');
+		}
+	
 	_putchar('\n');
 	}
 
