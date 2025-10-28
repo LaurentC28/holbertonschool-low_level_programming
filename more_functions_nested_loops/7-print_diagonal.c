@@ -9,9 +9,9 @@
 
 void print_diagonal(int n)
 {
-
 	int esp;
 	int lig;
+	
 	if (n <= 0)
 	_putchar('\n');
 
