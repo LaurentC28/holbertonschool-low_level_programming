@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * fizz_buzz - Write a program that prints the numbers from 1 to 100.
- * description - the multiple of 3 & 5 replaced.
- * main - Programm Entry
- * Return: return.
+ * main - head of description.
+ *
+ * Description of the fizzbuzz programm.
+ * Return: int
  */
 
 int main(void)
