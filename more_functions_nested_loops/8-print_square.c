@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagonal - Write a function that draws diagonal.
- * @n: explains in "betty" that we are working on the variable n
+ * print_square - Write a function that draws diagonal.
+ * @size: entry of the function.
  *
  * Return: no return.
  */
