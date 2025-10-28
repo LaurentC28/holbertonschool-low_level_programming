@@ -9,7 +9,6 @@
 
 void print_triangle(int size)
 {
-	
 	int esp;
 	int lig;
 	int resu;
@@ -27,7 +26,6 @@ void print_triangle(int size)
 		{
 		_putchar('#');
 		}
-	
 	_putchar('\n');
 	}
 
