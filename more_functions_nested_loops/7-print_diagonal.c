@@ -10,17 +10,17 @@
 void print_diagonal(int n)
 {
 
-	int m = 0;
+	int esp;
+	int lig;
 
-	if (n <= 0)
+	for (lig = 0 ; lig < n ; lig++)
 	{
-		_putchar('\n');
-	}
-		while (m < n)
+		for (esp = 0 ; esp < lig ; esp++)
 		{
-			_putchar(' ');
-			m++;
+			_putchar (' ');
 		}
-	_putchar('\\');
+	_putchar ('\\');
 	_putchar('\n');
+	}
+_putchar('\n');
 }
