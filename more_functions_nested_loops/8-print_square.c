@@ -9,15 +9,15 @@
 
 void print_square(int size)
 {
-	int hrz;
-	int vert;
+	int NbreDeDiese;
+	int NbrDeLigne;
 
 	if (size <= 0)
 	_putchar('\n');
 
-	for (vert = 0 ; vert < size ; vert++)
+	for (NbrDeLigne = 0 ; NbrDeLigne < size ; NbrDeLigne++)
 	{
-		for (hrz = 0 ; hrz < vert ; hrz++)
+		for (NbreDeDiese = 0 ; NbreDeDiese < size ; NbreDeDiese++)
 		{
 			_putchar ('#');
 		}
