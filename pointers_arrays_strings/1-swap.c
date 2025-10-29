@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * reset_to_98 - swaps the values of two integers
- * @n: explains in "betty" that we are working on the variable n
+ * swap_int - swaps the values of two integers
+ * @a: explains in "betty" that we are working on the variable a
+ * @b: explains in "betty" that we are working on the variable b
  *
  * Return: no return.
  */
