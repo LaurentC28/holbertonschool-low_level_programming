@@ -10,12 +10,11 @@
 
 void _puts(char *str)
 {
-	int i = 0;
 
-	while (str[i] != '\0')
+	while (*str != '\0')/*tant qu'on arrive pas a la fin de la chaine*/
 	{
-	_putchar(str[i]);
-	str++;
+	_putchar(*str);/*affiche le caractere pointé*/
+	str++;/*passe aucaractere suivant*/
 	}
 	_putchar('\n');
 }
