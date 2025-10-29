@@ -3,7 +3,7 @@
 /**
 * _puts - Write a function that takes a pointer
 * and print a string.
-* @s: explains in "betty" that we are working on the variable s
+* @str: explains in "betty" that we are working on the variable s
 *
 * Return: no return.
 */
