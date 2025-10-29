@@ -11,7 +11,7 @@ void swap_int(int *a, int *b)
 {
 int temp = 0;
 
-temp = *b; //la variable temp "prend" la valeur de l'adresse de b
-*b = *a; //la valeur de l'adresse de b prends la valeur de l'adresse de a
+temp = *b; /*la variable temp "prend" la valeur de l'adresse de b*/
+*b = *a; /*la valeur de l'adresse de b prends la valeur de l'adresse de a*/
 *a = temp;
 }
