@@ -10,7 +10,7 @@
 
 void puts2(char *s)
 {
-	int mavar;
+	int mavar = 0;
 	while (s[mavar] != '\0')
 	{
 		_putchar(s[mavar]);
