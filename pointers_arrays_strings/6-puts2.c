@@ -10,10 +10,11 @@
 
 void puts2(char *str)
 {
-	while (*str != *str % 2)
+	int mavar;
+	while (str[mavar] != '\0')
 	{
-		_putchar(*str);
-		str = str + 2;
+		_putchar(str[mavar]);
+		mavar = mavar + 2;
 	}
 _putchar('\n');
 }
