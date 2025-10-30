@@ -27,5 +27,5 @@ void rev_string(char *s)
 
 	debut++;
 	fin--;
-	}	
+}
 }
