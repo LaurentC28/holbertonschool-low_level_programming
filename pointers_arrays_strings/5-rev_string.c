@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
 * rev_string - Write a function that takes a pointer that prints a string.
-* in reverse.
-* @str: explains in "betty" that we are working on the variable s
+* and reverse his values.
+* @s: explains in "betty" that we are working on the variable s
 *
 * Return: no return.
 */
