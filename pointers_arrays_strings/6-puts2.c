@@ -8,12 +8,12 @@
 * Return: no return.
 */
 
-void puts2(char *str)
+void puts2(char *s)
 {
 	int mavar;
-	while (str[mavar] != '\0')
+	while (s[mavar] != '\0')
 	{
-		_putchar(str[mavar]);
+		_putchar(s[mavar]);
 		mavar = mavar + 2;
 	}
 _putchar('\n');
