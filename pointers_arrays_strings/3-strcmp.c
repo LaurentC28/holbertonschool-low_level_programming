@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * _strcmp - Write a function that compares two strings.
-
+* @s: explains in "betty" that we are working on the pointer s.
 * Return: no return.
 */
 
