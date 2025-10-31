@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* puts_half - Write a function that prints half of a string, followed by a new line.
+* puts_half - Write a function that prints half of a string.
 * @str: explains in "betty" that we are working on the variable str.
 *
 * Return: no return.
