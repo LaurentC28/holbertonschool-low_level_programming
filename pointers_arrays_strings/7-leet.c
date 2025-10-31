@@ -17,7 +17,7 @@ char *leet(char *str)
 	{
 		for (j = 0; lettres[j] != '\0'; j++)
 		{
-			 if (str[i] == lettres[j])
+			if (str[i] == lettres[j])
 				{
 					str[i] = chiffres[j];
 				}
