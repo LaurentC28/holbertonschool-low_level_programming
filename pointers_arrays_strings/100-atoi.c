@@ -28,6 +28,5 @@ int _atoi(char *s)
         nombre = nombre * 10 + (s[i] - '0');
         i++;
     }
-    nombre = nombre * signe;
     return (nombre * signe);
 }
