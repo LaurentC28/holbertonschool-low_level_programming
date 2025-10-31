@@ -3,7 +3,7 @@
 /**
 * *string_toupper - Write a function that changes all lowercase
 * letters of a string to uppercase.
-* @n: le nombre d'éléments à inverser.
+* @str: le nombre d'éléments à inverser.
 * Return: no return.
 */
 
