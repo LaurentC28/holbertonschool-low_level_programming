@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
+ * LES AFFICHAGES DANS UN TABLEAU DE TYPE INT
  *
  * Return: Always 0.
  */
