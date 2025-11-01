@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// TABLEAU SANS POINTEUR;
+// utilisation d'un compteur.
+
 int main(void)
 {
     char mot[] = "hello";   // la chaîne à parcourir
