@@ -17,4 +17,5 @@ int main(void)
     return (0);
     // on aurait pu afficher toute la chaine modifiée d'un coup en faisant printf("%s\n",*mot);
     //mais dans ce cas on ne peut pas revenir à la ligne à chaque caractère.
+    //
 }
