@@ -8,31 +8,31 @@
 */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0;       /* Compteur des caractères valides au début */
+	unsigned int count = 0;
 	char *a;
 	int found;
 
-	while (*s)                    /* Parcourir chaque caractère de s */
+	while (*s)
 	{
-		a = accept;               /* Repartir du début de accept pour chaque caractère de s */
-		found = 0;                 
+		a = accept;
+		found = 0;
 
-		while (*a)                 /* Parcourir accept */
+		while (*a)
 		{
-			if (*s == *a)          /* Si le caractère de s est dans accept */
+			if (*s == *a)
 			{
-				found = 1;         /* On a trouvé */
-				break;             /* Pas besoin de continuer */
+				found = 1;
+				break;
 			}
 			a++;
 		}
 
-		if (!found)                /* Si caractère de s non trouvé dans accept */
-			break;                 /* On arrête la boucle */
+		if (!found)
+			break;
 
-		count++;                   /* Sinon, on compte ce caractère */
-		s++;                        /* On passe au suivant */
+		count++;
+		s++;
 	}
 
-	return count;                  /* Retourner le nombre de caractères valides */
+	return (count);
 }
