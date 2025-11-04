@@ -5,7 +5,7 @@
  * @i: current candidate
  * Return: natural square root of n, -1 if none exists
  */
-static int compteur(int n, int i)
+ int compteur(int n, int i)
 {
 	if (i * i == n)
 	{
