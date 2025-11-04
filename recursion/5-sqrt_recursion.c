@@ -23,7 +23,7 @@ int compteur(int n, int i)
 	}
 	else if ( i * i < 0)
 	{
-		return (-1);
+		return (1);
 	}
 	else
 	{
