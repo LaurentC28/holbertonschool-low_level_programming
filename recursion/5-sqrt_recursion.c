@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _sqrt_recursion - returns the natural square root of a number
+ * compteur - function to find the natural square root of n
  * @n: number to find the square root of
  * @i: current candidate
- * Return: natural square root of n, -1 if none exists
+ * Return: the square root if it exists, -1 otherwise.
  */
- int compteur(int n, int i)
+int compteur(int n, int i)
 {
 	if (i * i == n)
 	{
@@ -19,6 +19,11 @@
 	{
 		return (compteur(n, i + 1));
 	}
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: number to find the square root of
+ * Return: natural square root of n, -1 if none exists
+ */
 }
 int _sqrt_recursion(int n)
 {
