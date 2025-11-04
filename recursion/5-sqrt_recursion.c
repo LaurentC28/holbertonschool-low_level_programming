@@ -21,10 +21,6 @@ int compteur(int n, int i)
 	{
 		return (-1);
 	}
-	else if ( i * i < 0)
-	{
-		return (1);
-	}
 	else
 	{
 		return (compteur(n, i + 1));
