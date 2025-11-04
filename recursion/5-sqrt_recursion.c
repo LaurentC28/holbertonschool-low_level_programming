@@ -21,10 +21,6 @@ int compteur(int n, int i)
 	{
 		return (-1);
 	}
-	else if (i < 0)
-	{
-		return (0);
-	}
 	else
 	{
 		return (compteur(n, i + 1));
@@ -32,5 +28,7 @@ int compteur(int n, int i)
 }
 int _sqrt_recursion(int n)
 {
+	if (n == 0)
+	return (0);
 	return (compteur(n, 1));
 }
