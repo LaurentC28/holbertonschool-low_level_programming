@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - program that adds positives numbers.
  * If no number is passed to the program, print 0, followed by a new line.
@@ -25,7 +24,7 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (!isdigit((unsigned char)argv[i][j]))
+			if (argv[i][j] > 9 || argv[i][j] < 0)
 			{
 				printf("Erreur\n");
 				return (1);
